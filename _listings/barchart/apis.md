@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21632-www-
 x-kinRank: "7"
 x-alexaRank: "15739"
 tags: Barchart
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Quotes
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getquotejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getquote-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getquotejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getquote-json-get-openapi.md
 - name: Barchart API Get Equities by Exchange
   x-api-slug: barchart-api
   description: Receive all real-time or delayed stock and/or index price data by exchange
@@ -36,9 +36,9 @@ apis:
   tags: Equities
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getequitiesbyexchangejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getequitiesbyexchange-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getequitiesbyexchangejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getequitiesbyexchange-json-get-openapi.md
 - name: Barchart API Get Futures by Exchange
   x-api-slug: barchart-api
   description: Receive all real-time or delayed, or end-of-day Futures data by exchange
@@ -49,9 +49,9 @@ apis:
   tags: Futures
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getfuturesbyexchangejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getfuturesbyexchange-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getfuturesbyexchangejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getfuturesbyexchange-json-get-openapi.md
 - name: Barchart API Get Close Price
   x-api-slug: barchart-api
   description: Get the close price for given instruments for the given date.
@@ -61,9 +61,9 @@ apis:
   tags: Stocks,Price
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getclosepricejson-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getcloseprice-json-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getclosepricejson-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/barchart/master/_listings/barchart/getcloseprice-json-get-openapi.md
 - name: Barchart API
   x-api-slug: barchart-api
   description: Barchart.com is the leading provider of intraday stock and commodities
